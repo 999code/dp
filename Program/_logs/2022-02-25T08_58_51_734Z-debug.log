@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tsc--init@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   'D:\\free\\2022面试准备\\2-25\\dp\\Program\\_npx\\8268',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v14.17.6
+4 verbose npm-session b0a2b5f2de042359
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/tsc--init 929ms
+8 http fetch GET 404 https://registry.npmjs.org/tsc--init 301ms
+9 silly fetchPackageMetaData error for tsc--init@latest 404 Not Found - GET https://registry.npmjs.org/tsc--init - Not found
+10 timing stage:rollbackFailedOptional Completed in 0ms
+11 timing stage:runTopLevelLifecycles Completed in 1247ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/tsc--init - Not found
+12 verbose stack     at D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:117:15
+12 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+13 verbose statusCode 404
+14 verbose pkgid tsc--init@latest
+15 verbose cwd D:\free\2022面试准备\2-25\dp
+16 verbose Windows_NT 10.0.22000
+17 verbose argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tsc--init@latest" "--global" "--prefix" "D:\\free\\2022面试准备\\2-25\\dp\\Program\\_npx\\8268" "--loglevel" "error" "--json"
+18 verbose node v14.17.6
+19 verbose npm  v6.14.15
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/tsc--init - Not found
+22 error 404
+23 error 404 'tsc--init@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
